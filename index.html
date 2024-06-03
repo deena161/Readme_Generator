@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Readme Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="logo.png">
+</head>
+
+<body>
+        <h1>GitHub README Generator</h1>
+        <form id="readmeForm">
+                <section>
+                        <h2>Personal Information 👤</h2>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <label for="name">About:</label>
+                        <center><textarea name="" id="about" required placeholder="about..."></textarea></center>
+                </section>
+                <br>
+                <section>
+                        <h2>About Project 👨🏽‍💻</h2>
+                        <label for="Introduction">Introduction:</label>
+                        <input type="text" id="introduction" placeholder="Introduction">
+                        <label for="Features">Features:</label>
+                        <input type="text" id="features" placeholder="Features">
+                        <label for="Installation">Installation:</label>
+                        <input type="text" id="installation" placeholder="Installation">
+                        <label for="Usage">Usage:</label>
+                        <input type="text" id="usage" placeholder="Usage">
+                        <label for="Contributing">Contributing:</label>
+                        <input type="text" id="contributing" placeholder="Contributing">
+                        <label for="License">License:</label>
+                        <input type="text" id="license" placeholder="License">
+                </section>
+                <br>
+                <h2>Skills 🧑🏻‍🎓</h2>
+                <h3>Programming Languages</h3>
+                <hr><br>
+                <section id="collection">
+                        <label id="skill"><input type="checkbox" value="C"> C <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+                                        alt="C" width="40px" height="40px" id="correct" title="C"></label>
+                        <label id="skill"><input type="checkbox" value="C++"> C++ <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                                        alt="C++" width="40px" height="40px" id="correct" title="C++"></label>
+                        <label id="skill"><input type="checkbox" value="Csharp"> Csharp <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+                                        alt="Csharp" width="40px" height="40px" id="correct" title="Csharp"></label>
+                        <label id="skill"><input type="checkbox" value="go"> go <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg"
+                                        alt="go" width="40px" height="40px" id="correct" title="go"></label>
+                        <label id="skill"><input type="checkbox" value="Java"> Java <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                                        alt="Java" width="40px" height="40px" id="correct" title="Java"></label>
+                        <label id="skill"><input type="checkbox" value="Java Script"> Java Script <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                                        alt="Java Script" width="35px" height="35px" id="correct"
+                                        title="Java Script"></label>
+                        <label id="skill"><input type="checkbox" value="Type Script"> Type Script <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                                        alt="Type Script" width="35px" height="35px" id="correct"
+                                        title="Type Script"></label>
+                        <label id="skill"><input type="checkbox" value="php"> php <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+                                        alt="php" width="40px" height="40px" id="correct" title="php"></label>
+                        <label id="skill"><input type="checkbox" value="Perl"> Perl <img
+                                        src="https://api.iconify.design/logos-perl.svg" alt="Perl" width="40px"
+                                        height="40px" id="correct" title="Perl"></label>
+                        <label id="skill"><input type="checkbox" value="Ruby"> Ruby <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
+                                        alt="Ruby" width="40px" height="40px" id="correct" title="Ruby"></label>
+                        <label id="skill"><input type="checkbox" value="Scala"> Scala <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg"
+                                        alt="Scala" width="35px" height="35px" id="correct" title="Scala"></label>
+                        <label id="skill"><input type="checkbox" value="Python"> Python <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                                        alt="Python" width="40px" height="40px" id="correct" title="Python"></label>
+                        <label id="skill"><input type="checkbox" value="Swift"> Swift <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg"
+                                        alt="Swift" width="40px" height="40px" id="correct" title="Swift"></label>
+                        <label id="skill"><input type="checkbox" value="Objectivec"> Objectivec <img
+                                        src="https://www.vectorlogo.zone/logos/apple_objectivec/apple_objectivec-icon.svg"
+                                        alt="Objectivec" width="40px" height="40px" id="correct"
+                                        title="Objectivec"></label>
+                        <label id="skill"><input type="checkbox" value="Clojure"> Clojure <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg"
+                                        alt="Clojure" width="40px" height="40px" id="correct" title="Clojure"></label>
+
+                        <label id="skill"><input type="checkbox" value="Haskell"> Haskell <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg"
+                                        alt="Haskell" width="35px" height="35px" id="correct" title="Haskell"></label>
+
+                        <label id="skill"><input type="checkbox" value="Coffeescript"> Coffeescript <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/coffeescript/coffeescript-original-wordmark.svg"
+                                        alt="Coffeescript" width="40px" height="40px" id="correct"
+                                        title="Coffeescript"></label>
+
+                        <label id="skill"><input type="checkbox" value="Elixir"> Elixir <img
+                                        src="https://www.vectorlogo.zone/logos/elixir-lang/elixir-lang-icon.svg"
+                                        alt="Elixir" width="40px" height="40px" id="correct" title="Elixir"></label>
+
+                        <label id="skill"><input type="checkbox" value="Erlang"> Erlang <img
+                                        src="https://www.vectorlogo.zone/logos/erlang/erlang-official.svg" alt="Erlang"
+                                        width="40px" height="40px" id="correct" title="Erlang"></label>
+
+                        <label id="skill"><input type="checkbox" value="Nim"> Nim <img
+                                        src="https://www.vectorlogo.zone/logos/nim-lang/nim-lang-icon.svg" alt="Nim"
+                                        width="40px" height="40px" id="correct" title="Nim"></label>
+
+                </section>
+                <br>
+
+                <h3>Frontend Development</h3>
+                <hr><br>
+                <section id="collection">
+                        <label id="skill"><input type="checkbox" value="Vuejs"> Vuejs <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg"
+                                        alt="Vuejs" width="32px" height="32px" id="correct" title="Vuejs"></label>
+
+                        <label id="skill"><input type="checkbox" value="React"> React <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                                        alt="React" width="40px" height="40px" id="correct" title="React"></label>
+
+                        <label id="skill"><input type="checkbox" value="Svelte"> Svelte <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
+                                        alt="Svelte" width="30px" height="30px" id="correct" title="Svelte"></label>
+
+                        <label id="skill"><input type="checkbox" value="AngularJs"> AngularJs <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg"
+                                        alt="AngularJs" width="40px" height="40px" id="correct"
+                                        title="AngularJs"></label>
+
+                        <label id="skill"><input type="checkbox" value="Angular"> Angular <img
+                                        src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular"
+                                        width="40px" height="40px" id="correct" title="Angular"></label>
+
+                        <label id="skill"><input type="checkbox" value="BackboneJs"> BackboneJs <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/backbonejs/backbonejs-original-wordmark.svg"
+                                        alt="BackboneJs" width="40px" height="40px" id="correct"
+                                        title="BackboneJs"></label>
+
+                        <label id="skill"><input type="checkbox" value="Bootstrap"> Bootstrap <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                                        alt="Bootstrap" width="40px" height="40px" id="correct"
+                                        title="Bootstrap"></label>
+
+                        <label id="skill"><input type="checkbox" value="Vuetify"> Vuetify <img
+                                        src="https://bestofjs.org/logos/vuetify.svg" alt="Vuetify" width="40px"
+                                        height="40px" id="correct" title="Vuetify"></label>
+
+                        <label id="skill"><input type="checkbox" value="CSS3"> CSS3 <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                                        alt="CSS3" width="40px" height="40px" id="correct" title="CSS3"></label>
+
+                        <label id="skill"><input type="checkbox" value="HTML5"> HTML5 <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                                        alt="HTML5" width="40px" height="40px" id="correct" title="HTML5"></label>
+
+                        <label id="skill"><input type="checkbox" value="Pug"> Pug <img
+                                        src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="Pug" width="40px"
+                                        height="40px" id="correct" title="Pug"></label>
+
+                        <label id="skill"><input type="checkbox" value="Gulp"> Gulp <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg"
+                                        alt="Gulp" width="40px" height="40px" id="correct" title="Gulp"></label>
+
+                        <label id="skill"><input type="checkbox" value="Sass"> Sass <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+                                        alt="Sass" width="40px" height="40px" id="correct" title="Sass"></label>
+
+                        <label id="skill"><input type="checkbox" value="Redux"> Redux <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+                                        alt="Redux" width="40px" height="40px" id="correct" title="Redux"></label>
+
+                        <label id="skill"><input type="checkbox" value="Webpack"> Webpack <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg"
+                                        alt="Webpack" width="40px" height="40px" id="correct" title="Webpack"></label>
+
+                        <label id="skill"><input type="checkbox" value="Babel"> Babel <img
+                                        src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="Babel"
+                                        width="40px" height="40px" id="correct" title="Babel"></label>
+
+                        <label id="skill"><input type="checkbox" value="Tailwind"> Tailwind <img
+                                        src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                                        alt="Tailwind" width="40pxx" height="40px" id="correct"
+                                        title="Tailwind"></label>
+
+                        <label id="skill"><input type="checkbox" value="Materialize"> Materialize <img
+                                        src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg"
+                                        alt="Materialize" width="40px" height="40px" id="correct"
+                                        title="Materialize"></label>
+
+                        <label id="skill"><input type="checkbox" value="Bulma"> Bulma <img
+                                        src="https://raw.githubusercontent.com/gilbarbara/logos/804dc257b59e144eaca5bc6ffd16949752c6f789/logos/bulma.svg"
+                                        alt="Bulma" width="40px" height="40px" id="correct" title="Bulma"></label>
+
+                        <label id="skill"><input type="checkbox" value="GTK"> GTK <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/7/71/GTK_logo.svg" alt="GTK"
+                                        width="40px" height="40px" id="correct" title="GTK"></label>
+
+                        <label id="skill"><input type="checkbox" value="QT"> QT <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg"
+                                        alt="QT" width="40px" height="40px" id="correct" title="QT"></label>
+
+                        <label id="skill"><input type="checkbox" value="WxWidgets"> WxWidgets <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/b/bb/WxWidgets.svg"
+                                        alt="WxWidgets" width="40px" height="40px" id="correct"
+                                        title="WxWidgets"></label>
+
+                        <label id="skill"><input type="checkbox" value="Ember"> Ember <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ember/ember-original-wordmark.svg"
+                                        alt="Ember" width="40px" height="40px" id="correct" title="Ember"></label>
+
+                </section>
+
+                <h3>Backend Development</h3>
+                <hr><br>
+
+                <section id="collection">
+
+                        <label id="skill"><input type="checkbox" value="node"> Node <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                                        alt="node" width="40px" height="40px" id="correct" title="Node"></label>
+
+                        <label id="skill"><input type="checkbox" value="spring"> Spring <img
+                                        src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring"
+                                        width="30px" height="30px" id="correct" title="Spring"></label>
+
+                        <label id="skill"><input type="checkbox" value="express"> Express <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                                        alt="Express" width="45px" height="45px" id="correct" title="Express"></label>
+
+                        <label id="skill"><input type="checkbox" value="graphql"> Graphql <img
+                                        src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="Graphql"
+                                        width="35px" height="35px" id="correct" title="Graphql"></label>
+
+                        <label id="skill"><input type="checkbox" value="kafka"> Kafka <img
+                                        src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg"
+                                        alt="Kafka" width="37px" height="37px" id="correct" title="Kafka"></label>
+
+                        <label id="skill"><input type="checkbox" value="solr"> Solr <img
+                                        src="https://www.vectorlogo.zone/logos/apache_solr/apache_solr-icon.svg"
+                                        alt="Solr" width="33px" height="33px" id="correct" title="Solr"></label>
+
+                        <label id="skill"><input type="checkbox" value="rabbitmq"> Rabbitmq <img
+                                        src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg"
+                                        alt="Rabbitmq" width="33px" height="33px" id="correct" title="Rabbitmq"></label>
+
+                        <label id="skill"><input type="checkbox" value="handoop"> Handoop <img
+                                        src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg"
+                                        alt="Handoop" width="40px" height="40px" id="correct" title="Handoop"></label>
+
+                        <label id="skill"><input type="checkbox" value="nginx"> Nginx <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg"
+                                        alt="Nginx" width="50px" height="50px" id="correct" title="Nginx"></label>
+
+                        <label id="skill"><input type="checkbox" value="openresty"> Openresty <img
+                                        src="https://openresty.org/images/logo.png" alt="Openresty" width="37px"
+                                        height="37px" id="correct" title="Openresty"></label>
+
+                        <label id="skill"><input type="checkbox" value="nest"> Nest <img
+                                        src="https://svg-files.pixelied.com/9496f603-8e3d-4bee-a2a5-c83dac4c2f11/thumb-256px.png"
+                                        alt="Nest" width="37px" height="37px" id="correct" title="Nest"></label>
+                </section>
+
+                <h3>Mobile App Development</h3>
+                <hr><br>
+                <section id="collection">
+
+                        <label id="skill"><input type="checkbox" value="android"> Android <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg"
+                                        alt="Android" width="40px" height="40px" id="correct" title="Android"></label>
+
+                        <label id="skill"><input type="checkbox" value="flutter"> Flutter <img
+                                        src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
+                                        alt="Flutter" width="37px" height="37px" id="correct" title="Flutter"></label>
+
+                        <label id="skill"><input type="checkbox" value="dart"> Dart <img
+                                        src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart"
+                                        width="37px" height="37px" id="correct" title="Dart"></label>
+
+                        <label id="skill"><input type="checkbox" value="kotlin"> Kotlin <img
+                                        src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg"
+                                        alt="Kotlin" width="35px" height="35px" id="correct" title="Kotlin"></label>
+
+                        <label id="skill"><input type="checkbox" value="nativescript"> Nativescript <img
+                                        src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/nativescript.svg"
+                                        alt="Nativescript" width="37px" height="37px" id="correct"
+                                        title="Nativescript"></label>
+
+                        <label id="skill"><input type="checkbox" value="xamarin"> Xamarin <img
+                                        src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/xamarin.svg"
+                                        alt="Xamarin" width="37px" height="37px" id="correct" title="Xamarin"></label>
+
+                        <label id="skill"><input type="checkbox" value="ionic"> Ionic <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg"
+                                        alt="Ionic" width="40px" height="40px" id="correct" title="Ionic"></label>
+
+                        <label id="skill"><input type="checkbox" value="apacheCordova"> ApacheCordova <img
+                                        src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg"
+                                        alt="ApacheCordova" width="37px" height="37px" id="correct"
+                                        title="ApacheCordova"></label>
+
+                </section id="collection">
+
+                <h3>Other</h3>
+                <hr><br>
+                <section id="collection">
+
+                        <label id="skill"><input type="checkbox" value="pandas"> Pandas <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg"
+                                        alt="Pandas" width="37px" height="37px" id="correct" title="Pandas"></label>
+
+                        <label id="skill"><input type="checkbox" value="opencv"> Opencv <img
+                                        src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="Opencv"
+                                        width="43px" height="43px" id="correct" title="Opencv"></label>
+
+                        <label id="skill"><input type="checkbox" value="mongodb"> Mongodb <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                                        alt="Mongodb" width="43px" height="43px" id="correct" title="Mongodb"></label>
+
+                        <label id="skill"><input type="checkbox" value="mysql"> Mysql <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                                        alt="Mysql" width="43px" height="43px" id="correct" title="Mysql"></label>
+
+                        <label id="skill"><input type="checkbox" value="oracle"> Oracle <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg"
+                                        alt="Oracle" width="37px" height="37px" id="correct" title="Oracle"></label>
+
+                        <label id="skill"><input type="checkbox" value="grafana"> Grafana <img
+                                        src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="Grafana"
+                                        width="37px" height="37px" id="correct" title="Grafana"></label>
+
+                        <label id="skill"><input type="checkbox" value="bash"> Bash <img
+                                        src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash"
+                                        width="37px" height="37px" id="correct" title="Bash"></label>
+
+                        <label id="skill"><input type="checkbox" value="firebase"> Firebase <img
+                                        src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+                                        alt="Firebase" width="37px" height="37px" id="correct" title="Firebase"></label>
+
+                        <label id="skill"><input type="checkbox" value="django"> Django <img
+                                        src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="37px"
+                                        height="37px" id="correct" title="Django"></label>
+
+                        <label id="skill"><input type="checkbox" value="dotnet"> Dotnet <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
+                                        alt="Dotnet" width="37px" height="37px" id="correct" title="Dotnet"></label>
+
+                        <label id="skill"><input type="checkbox" value="photoshop"> Photoshop <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
+                                        alt="Photoshop" width="37px" height="37px" id="correct"
+                                        title="Photoshop"></label>
+
+                        <label id="skill"><input type="checkbox" value="figma"> Figma <img
+                                        src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma"
+                                        width="37px" height="37px" id="correct" title="Figma"></label>
+
+                        <label id="skill"><input type="checkbox" value="matlab"> Matlab <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"
+                                        alt="Matlab" width="37px" height="37px" id="correct" title="Matlab"></label>
+
+                        <label id="skill"><input type="checkbox" value="postman"> Postman <img
+                                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                                        alt="Postman" width="37px" height="37px" id="correct" title="Postman"></label>
+
+                        <label id="skill"><input type="checkbox" value="unity"> Unity <img
+                                        src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="Unity"
+                                        width="37px" height="37px" id="correct" title="Unity"></label>
+
+                        <label id="skill"><input type="checkbox" value="linux"> Linux <img
+                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+                                        alt="Linux" width="37px" height="37px" id="correct" title="Linux"></label>
+
+                        <label id="skill"><input type="checkbox" value="git"> Git <img
+                                        src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git"
+                                        width="37px" height="37px" id="correct" title="Git"></label>
+
+                        <label id="skill"><input type="checkbox" value="arduino"> Arduino <img
+                                        src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino"
+                                        width="37px" height="37px" id="correct" title="Arduino"></label>
+
+                </section>
+
+
+                <section>
+                        <h2>Social Profiles</h2>
+                        <hr> <br>
+                        <label for="github">GitHub:</label>
+                        <input type="url" id="github" placeholder="GitHub profile link">
+
+                        <label for="linkedin">LinkedIn:</label>
+                        <input type="url" id="linkedin" placeholder="LinkedIn profile link">
+
+                        <label for="twitter">Twitter:</label>
+                        <input type="url" id="twitter" placeholder="Twitter profile link">
+
+                        <label for="hackerrank">HackerRank:</label>
+                        <input type="url" id="hackerrank" placeholder="hackerrank profile link">
+
+                        <label for="hackerearth">HackerEarth:</label>
+                        <input type="url" id="hackerearth" placeholder="hackerearth profile link">
+
+                        <label for="leetcode">LeetCode:</label>
+                        <input type="url" id="leetcode" placeholder="leetcode profile link">
+
+                        <label for="codechef">Codechef:</label>
+                        <input type="url" id="codechef" placeholder="codechef profile link">
+
+                        <label for="geeksforgeeks">Geeksforgeeks:</label>
+                        <input type="url" id="geeksforgeeks" placeholder="geeksforgeeks profile link">
+
+                        <label for="stackoverflow">Stackoverflow:</label>
+                        <input type="url" id="stackoverflow" placeholder="stackoverflow profile link">
+
+                        <label for="codepen">Codepen:</label>
+                        <input type="url" id="codepen" placeholder="codepen profile link">
+
+                        <label for="kaggle">Kaggle:</label>
+                        <input type="url" id="kaggle" placeholder="kaggle profile link">
+
+                        <label for="youtube">Youtube:</label>
+                        <input type="url" id="youtube" placeholder="youtube profile link">
+                </section>
+
+                <section>
+                        <h2>Reference Images and Video</h2>
+                        <hr> <br>
+                        <label for="">Online SVG Images Only</label>
+                        <label for="image">Image1</label>
+                        <input type="url" id="image1" placeholder="Image1 link">
+
+                        <label for="image">Image2</label>
+                        <input type="url" id="image2" placeholder="Image2 link">
+
+                        <label for="image">Image3</label>
+                        <input type="url" id="image3" placeholder="Image3 link">
+
+                        <label for="video">Video</label>
+                        <input type="url" id="video" placeholder="Youtube video -> Share -> Embed -> copy src code without double quotes">
+                </section>
+
+                <button type="submit">Generate README</button>
+        </form>
+
+        <section id="output">
+                <h2>Generated README</h2>
+                <div id="readmeContent"></div> <br>
+                <button id="copyButton">Copy to Clipboard</button>
+        </section>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
